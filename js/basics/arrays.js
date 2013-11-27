@@ -25,34 +25,34 @@ function uniq() {
 }
 
 /*
-* insertAt(index, object) usage:
-* ["a", "b", "c"].insertAt(1, "xxx") => ["a", "xxx", "b", "c"]
-* */
+ * insertAt(index, object) usage:
+ * ["a", "b", "c"].insertAt(1, "xxx") => ["a", "xxx", "b", "c"]
+ * */
 function insertAt(index, object) {
 }
 
 /*
-* deleteAt(index) usage:
-* var arr = ["a", "b", "c"];
-* var deletedObject = arr.deleteAt(1);
-* deletedObject === "b" && arr == ["a", "c"]
-* */
+ * deleteAt(index) usage:
+ * var arr = ["a", "b", "c"];
+ * var deletedObject = arr.deleteAt(1);
+ * deletedObject === "b" && arr == ["a", "c"]
+ * */
 function deleteAt(index) {
 }
 
 /* shuffle() usage:
-* [1, 2, 3, 4].shuffle() => [2, 4, 1, 3]
-*
-* */
+ * [1, 2, 3, 4].shuffle() => [2, 4, 1, 3]
+ *
+ * */
 function shuffle(array) {
 }
 
 /*
-* inGroupsOf(groupSize, fillWith) usage:
-* [1, 2, 3, 4].inGroupsOf(2) => [[1, 2], [3, 4]]
-* [1, 2, 3, 4].inGroupsOf(3) => [[1, 2, 3], [4]]
-* [1, 2, 3, 4].inGroupsOf(3, "x") => [[1, 2, 3], [4, "x", "x"]]
-* */
+ * inGroupsOf(groupSize, fillWith) usage:
+ * [1, 2, 3, 4].inGroupsOf(2) => [[1, 2], [3, 4]]
+ * [1, 2, 3, 4].inGroupsOf(3) => [[1, 2, 3], [4]]
+ * [1, 2, 3, 4].inGroupsOf(3, "x") => [[1, 2, 3], [4, "x", "x"]]
+ * */
 function inGroupsOf(array, number, fillWith) {
 }
 
