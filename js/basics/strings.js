@@ -1,22 +1,38 @@
-
+/*
+ * Usage:
+ * reverse("abc") => "cba"
+ * */
 function reverse(string) {
-
 }
 
+/*
+ * Usage:
+ * reverse("abc xyz") => "cba zyx"
+ * */
 function reverseEachWord(string) {
-
 }
+
+/*
+* Usage:
+* titleize("alice in wonderland") # => "Alice In Wonderland"
+* */
+function titleize(string) {
+}
+
+/*
+* Usage:
+* truncate("Oh dear! Oh dear! I shall be late!", 7) => "Oh d..."
+* */
+function truncate(string, length) {
+}
+
+
+
 
 function charAt(string, index) { // for index < 0
-
-}
-
-function substring(string, startIndex, endIndex) { // for startIndex & endIndex < 0
-
 }
 
 function removeDuplicateChars(string) {
-
 }
 
 function findFirstUniqChar(string) {
@@ -51,10 +67,6 @@ function squish(string) { // " \n  foo\n\r \t bar \n".squish # => "foo bar"
 
 }
 
-function truncate(string, length) { //"Oh dear! Oh dear! I shall be late!".truncate(20) # => "Oh dear! Oh dear!..."
-
-}
-
 function from(string, index) { //"hello".from(2)  # => "llo" "hello".from(-2) # => "lo"
 
 }
@@ -64,10 +76,6 @@ function to(string, index) { //"hello".to(2)  # => "hel" "hello".to(-2) # => "he
 }
 
 function camelize(string) { // "some-fancy-string" => "SomeFancyString"
-
-}
-
-function titleize(string) { // "alice in wonderland".titleize # => "Alice In Wonderland"
 
 }
 
