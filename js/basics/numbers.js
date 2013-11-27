@@ -1,13 +1,34 @@
+/*
+ * Usage:
+ * odd(20) => false
+ * odd(7) => true
+ * */
 function odd(number) { // true/false
-
 }
 
+/*
+ * Init var currentValue with 2;
+ * Loop 10 times and in each iteration:
+ * - lift currentValue to the square, and
+ * - log it on console
+ * */
 function toInfinity() {
+}
+
+/*
+ * Returns pseudo random number between [0, max)
+ * */
+function random(max) {
+}
+
+/*
+ * Returns pseudo random number between [min, max)
+ * */
+function randomBetween(min, max) {
 
 }
 
 function even(number) { // true/false
-
 }
 
 function div(dividend, divisor) { // dzielenie div np. (13, 4) === 3
@@ -26,13 +47,6 @@ function leastCommonMultiple(n1, n2) { // najmniejsza wspolna wielokrotnosc
 
 }
 
-function random(max) { // pseudo random between [0..max)
-
-}
-
-function randomBetween(min, max) { // pseudo random between [min..max)
-
-}
 
 function multipleOf(i, arg) { //true if i === x * arg
 }
